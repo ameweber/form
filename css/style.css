@@ -1,0 +1,119 @@
+body {
+    background-image: url(../img/liq.png);
+    font-family: Circe;
+}
+
+h1 {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 96px;
+    /* identical to box height */
+
+    margin-top: 130px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFEBFC;
+
+}
+
+.form-control::placeholder {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(255, 244, 253, 0.8);
+}
+
+label, input, .form-control{
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(255, 244, 253, 0.8);
+}
+
+.about {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFF8F8;
+    padding: 26px 26px 40px 26px;
+}
+
+.ab {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+
+.btn {
+    background: rgba(180, 152, 177, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFF2FD;
+    padding: 20px 50px 20px 50px;
+}
+
+.form-control {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    border: none;
+    padding: 37px 0 37px 25px;
+}
+
+.area {
+    padding:23px 0 0 20px;
+}
+
+.form-control:valid {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 244, 253, 0.8);
+
+}
+
+.dop {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    border: none;
+    padding: 20px 37px 20px 37px;
+}
+
+.time {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    border: none;
+    padding: 20px 42px 20px 42px;
+}
+
+.btn:hover{
+    background: rgba(180, 152, 177, 0.9);
+    backdrop-filter: blur(2px);
+    color: #FFFFFF;
+
+
+}
